@@ -30,8 +30,7 @@ add_library(builder STATIC
 )
 add_library(process INTERFACE
 )
-add_executable(main
-  ${CMAKE_CURRENT_SOURCE_DIR}/sources/main.cpp
+
 )
 
 target_include_directories(process
