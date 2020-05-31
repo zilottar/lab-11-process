@@ -28,10 +28,6 @@ find_package(Boost CONFIG REQUIRED program_options filesystem system regex)
 add_library(builder STATIC
   ${CMAKE_CURRENT_SOURCE_DIR}/sources/builder.cpp
 )
-add_library(process INTERFACE
-)
-
-)
 
 target_include_directories(process
   INTERFACE ${CMAKE_CURRENT_SOURCE_DIR}/process/include
